@@ -1,0 +1,27 @@
+
+
+const mongoose = require("mongoose");
+
+
+const Schema = mongoose.Schema;
+
+
+
+var fee = Schema({
+
+
+
+    class: {
+        type: String, 
+        required: true
+    },
+    students: {
+        type: String, 
+        required : true
+    }
+
+});
+
+
+
+module.exports = mongoose.model("Student",fee);

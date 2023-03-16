@@ -1,0 +1,26 @@
+{
+  "name": "node-js-practice",
+  "version": "1.0.0",
+  "description": "This is test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "practice"
+  ],
+  "author": "Shabir khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mongodb": "^5.1.0",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

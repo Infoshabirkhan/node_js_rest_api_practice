@@ -1,0 +1,15 @@
+
+
+
+
+const express   = require('express');
+const { getFeeData } = require('../controllers/fee-controllers');
+
+
+const feeRoutes = express.Router();
+
+
+feeRoutes.get('/', getFeeData);
+
+
+module.exports = feeRoutes;
